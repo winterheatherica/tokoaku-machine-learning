@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask environment variables
+.env
+.venv
+venv/
+ENV/
+env.bak/
+env/
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+
+# Ignore test folder
+app/test/
+
+# Ignore old-code
+app/old-main.py
