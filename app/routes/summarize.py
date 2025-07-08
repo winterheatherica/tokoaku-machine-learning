@@ -36,7 +36,7 @@ def summarize():
             num_beams=4,
             no_repeat_ngram_size=2,
             repetition_penalty=2.0,
-            length_penalty=1.5,
+            length_penalty=1.9,
             early_stopping=True
         )
 
